@@ -233,13 +233,13 @@
 
 #define	TIMEOUT_MIN					(5 * 1000)	// Minimum timeout in seconds
 #define	TIMEOUT_MAX					(60 * 1000)	// Maximum timeout in seconds
-#define	TIMEOUT_DEFAULT				(30 * 1000) // Default number of seconds to timeout
-#define	CONNECTING_TIMEOUT			(15 * 1000)	// Timeout in seconds of being connected
+#define	TIMEOUT_DEFAULT				(5 * 1000) // Default number of seconds to timeout
+#define	CONNECTING_TIMEOUT			(4 * 1000)	// Timeout in seconds of being connected
 #define	CONNECTING_TIMEOUT_PROXY	(4 * 1000)	// Timeout in seconds of being connected (Proxy)
 #define	CONNECTING_POOLING_SPAN		(3 * 1000) // Polling interval of connected
 #define	MIN_RETRY_INTERVAL			(5 * 1000)		// Minimum retry interval
-#define	MAX_RETRY_INTERVAL			(300 * 1000)	// Maximum retry interval
-#define	RETRY_INTERVAL_SPECIAL		(60 * 1000)		// Reconnection interval of a special case
+#define	MAX_RETRY_INTERVAL			(5 * 1000)	// Maximum retry interval
+#define	RETRY_INTERVAL_SPECIAL		(5 * 1000)		// Reconnection interval of a special case
 
 #define	MAX_ADDITONAL_CONNECTION_FAILED_COUNTER	16	// Allowable number that can be serially failed to additional connection
 #define	ADDITIONAL_CONNECTION_COUNTER_RESET_INTERVAL	(30 * 60 * 1000)	// Reset period of additional connection failure counter
