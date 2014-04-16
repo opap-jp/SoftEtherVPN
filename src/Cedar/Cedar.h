@@ -321,7 +321,7 @@
 
 // Internet connection maintenance function (KeepAlive)
 
-#define	KEEP_RETRY_INTERVAL		(60 * 1000)			// Reconnection interval on connection failure
+#define	KEEP_RETRY_INTERVAL		(3 * 1000)			// Reconnection interval on connection failure (customized by butaman-kun)
 #define	KEEP_MIN_PACKET_SIZE	1					// Minimum packet size
 #define	KEEP_MAX_PACKET_SIZE	128					// Maximum packet size
 #define	KEEP_POLLING_INTERVAL	250					// KEEP polling interval
